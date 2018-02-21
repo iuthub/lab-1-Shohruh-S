@@ -1,0 +1,42 @@
+body {
+	background-color: #ffe066;
+	font-family: Helvetica;
+	color: black;
+}
+
+a {
+	color: #ff5c33;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+/* CSS pseudo-class implementation into links */
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* Adding some shadows to images */
+img {
+	box-shadow: 0 0 0.8em;
+}
+
+h1, h2 {
+	color: #4d94ff;
+}
+
+#smallerFont {
+	font-size: .8em;
+}
+
+strong {
+	color: #007399;
+}
+
+/* CSS pseudo-element implementation (drop-cap) */
+.DropCap::first-letter {
+	font-size: 1.5em;
+}
